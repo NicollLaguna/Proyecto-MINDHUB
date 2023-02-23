@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+</head>
+<body>
+    <header class="d-flex justify-content-center gap-5 bg-black p-3 fixed-top">
+        <p class="fs-9 d-flex align-items-center text-white">PRÓXIMO BOOTCAMP: 6/3 MERN</p>
+        <button type="button" class="btn btn-light ps-4 pe-4 pt-1 pb-1 rounded-0">APLICA AHORA</button>
+    </header>
+    <main class="nav-main">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid d-flex">
+                <div>
+                    <a href="#" class="a-icono"><img class = "icono" src="https://mindhubweb.com/img/logo_blanco.ca1738c0.webp" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">SOMOS MINDHUB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NUESTROS BOOTCAMPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ESTUDIAR EN MINDHUB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MINDHUB EMPRESAS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://mindhubweb.com/img/foto0.6c42cff5.jpg" class="d-block w-100" alt="...">
+                
+                <div class="carousel-caption d-none d-md-block d-flex justify-content-between carrusel-1">
+                  <h2 class="h2">Revoluciona tu
+                    vida profesional
+                    en solo 4 meses</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://mindhubweb.com/img/foto1.c14b02db.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="h2-2">El 91% de nuestros alumnos
+                    consiguió trabajo en la industria
+                    en menos de tres meses</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://mindhubweb.com/img/foto3.e726dfc6.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="h2-3">Ya somos +2.000 hubbers
+                        capacitados</h2>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="bg-black d-flex flex-column align-items-center p-5 text-white" >
+            <h4>FORMAMOS LOS TALENTOS DE LA NUEVA ERA DIGITAL</h4>
+            <h2 class="fs-1 text texto">Somos el bootcamp mejor rankeado de Latinoamérica</h2>
+        </div>
+        <div>
+            <img src="https://mindhubweb.com/img/calif_es.41a1e8ce.webp" width="100%" alt="">
+        </div>
+        <div class="card-img position-relative">
+            <h3 class="bg-black mb-0 text-success p-2 d-flex justify-content-center">PRENSA</h3>
+            <img src="https://mindhubweb.com/img/banner_prensa.a10249e3.webp" class="card-img-top" width="100%" alt="">
+            <div class="card-img-overlay d-flex align-items-start justify-content-center align-items-end pb-2">
+                <a href="#" class="btn btn-success">IR A LAS NOTAS</a>
+            </div>
+        </div>
+        <!-- FORMULARIO -->
+        <div class="d-flex align-items-center p-5 gap-5">
+            <div class="caja-texto-formulario">
+                <p class="text-white fs-3 w-3">
+                    ¿Te interesa sumarte a la revolución y empezar tu carrera digital con nosotros?
+                    Completa el formulario para recibir más información
+                </p>
+            </div>
+            <div class="caja-formulario"> 
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-10 position-relative">
+                        <input type="text" class="form-control" id="validationTooltip01" value="Nombre*" required>
+                        <div class="valid-tooltip">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 position-relative">
+                        <input type="text" class="form-control" id="validationTooltip02" value="Apellido*" required>
+                        <div class="valid-tooltip">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 position-relative">
+                        <input type="email" class="form-control" id="validationTooltip03" value="Email*">
+                    </div>
+                    <div class="col-md-10 position-relative">
+                        <input type="tel" class="form-control" id="validationTooltip04" value="Telefono">
+                    </div>
+                    <div class="col-md-5 position-relative">
+                        <input type="text" class="form-control" id="validationTooltip05" value= "Ciudad*"required>
+                        <div class="invalid-tooltip">
+                        Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-5 position-relative">
+                        <select class="form-select" id="validationTooltip06" required>
+                        <option selected disabled value="">País*</option>
+                        <option>...</option>
+                        </select>
+                        <div class="invalid-tooltip">
+                        Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                    </form>
+            </div>
+        </div>
+    </main>
+    <footer class="d-flex text-white bg-black p-5">
+        <div class="d-flex flex-column col-lg-3 ms-5">
+            <h4>¿Quieres trabajar
+                en MindHub?</h4>
+            <p class="text-danger">*Esta web fue desarrollada por alumnos egresados de MindHub utilizando contenidos
+                de HTML, CSS, JavaScript, Vue y Bootstrap, aprendidos en nuestros bootcamps.</p>
+        </div>
+        <div class="d-flex flex-column col-lg-2 ms-5">
+            <h4>Términos
+                y condiciones
+            </h4>
+            <a class="text-white text-decoration-none" href="#">FAQ</a>
+            <a class="text-white text-decoration-none" href="#">TERMS</a>
+        </div>  
+        <div class="d-flex flex-column col-lg-2 ms-5">
+            <h4>Contacto
+            </h4>
+            <a class="text-white text-decoration-none" href="#">WhatsApp</a>
+            <a class="text-white text-decoration-none" href="#">Instagram</a>
+            <a class="text-white text-decoration-none" href="#">Facebook</a>
+            <a class="text-white text-decoration-none" href="#">Linkedin</a>
+            <a class="text-white text-decoration-none" href="#">YouTube</a>
+        </div>  
+        <div>
+            <h4 class="color">Somos MindHub, estamos formando
+                los talentos de la nueva era digital</h4>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

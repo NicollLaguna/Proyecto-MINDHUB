@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+.fs-9{
+    margin: 0;
+    /* display: flex;
+    align-items: center; */
+}
+
+/* .nav-main{
+    margin-top: 4rem;
+} */
+
+.icono{
+    width: 7rem;
+}
+
+/* .carousel-item-1{
+    background-image: url(https://mindhubweb.com/img/foto0.6c42cff5.jpg);
+} */
+
+.h2{
+    font-size: 3rem;
+    width: 25rem;
+    margin-bottom: 35vh;
+    color:  #bcfc44;
+}
+
+.h2-2{
+    font-size: 3rem;
+    width: 45rem;
+    margin-bottom: 18rem;
+    text-align: start;
+    color:  #bcfc44;
+}
+
+.h2-3{
+    font-size: 3rem;
+    width: 45rem;
+    margin-bottom: 18rem;
+    text-align: start;
+    color:  #bcfc44;
+}
+
+.texto{
+    text-align: center;
+    width: 42rem;
+}
+
+.carrusel-1{
+    width: 100%;
+}
+
+.container-fluid.d-flex{
+    display: flex;
+    gap: 40rem;
+    background-color: transparent;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+    width: 9rem;
+}
+
+.nav-link:hover{
+    color:  #bcfc44;
+}
+
+.a-icono{
+    padding-left: 3rem;
+}
+
+.navbar{
+    position: absolute; 
+    top: 5rem;
+    z-index: 2;
+    width: 100%;
+    color: black;
+}
+.d-flex.align-items-center.p-5.gap-5{
+    background-image: url(https://info.mindhubweb.com/hubfs/formulario.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 40rem;
+}
+
+.color {
+    color:  #bcfc44;
+}
